@@ -11,7 +11,7 @@ echo DB_USERNAME;
 echo "\n";
 echo DB_PASSWORD;
 echo "\n";
-$connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD);
+$connection = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 
 if (!$connection) {
     echo "false connection";
