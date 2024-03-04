@@ -1,4 +1,4 @@
-<?php include "../inc/dbinfo.inc"; ?>
+<?php include "../inc/db_config.inc"; ?>
 <html>
 <body>
 <h1>Workshop AWS page</h1>
