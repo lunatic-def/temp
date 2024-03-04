@@ -10,7 +10,14 @@
   if (mysqli_connect_errno()) echo "Failed to connect to MySQL: " . mysqli_connect_error();
 
   $database = mysqli_select_db($connection, DB_DATABASE);
-
+  echo DB_SERVER;
+  echo "\n";
+  echo DB_DATABASE;
+  echo "\n";
+  echo DB_USERNAME;
+  echo "\n";
+  echo DB_PASSWORD;
+  echo "\n";
   /* Ensure that the EMPLOYEES table exists. */
   VerifyEmployeesTable($connection, DB_DATABASE);
 
