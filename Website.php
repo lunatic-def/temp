@@ -1,7 +1,7 @@
 <?php include "../inc/db_config.inc"; ?>
 <html>
 <body>
-<h1>Workshop AWS page</h1>
+<h1>Workshop 1 AWS FCJ 2024 - HCM </h1>
 <?php
 
   /* Connect to MySQL and select the database. */
